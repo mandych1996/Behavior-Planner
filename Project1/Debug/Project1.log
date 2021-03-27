@@ -1,0 +1,23 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  vehicle.cpp
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(18): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(53): warning C4018: '<': signed/unsigned mismatch
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(136): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(147): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(155): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(162): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(180): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(226): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(235): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(239): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(313): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\user\source\repos\behavior planner\project1\vehicle.cpp(317): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  Project1.vcxproj -> C:\Users\user\source\repos\Behavior Planner\Debug\Behavior Planner.exe
