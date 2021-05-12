@@ -30,8 +30,7 @@ float goal_distance_cost(const Vehicle &vehicle,
 	//   change) and final lane of trajectory.
 	// Cost of being out of goal lane also becomes larger as vehicle approaches 
 	//   goal distance.
-	// This function is very similar to what you have already implemented in the 
-	//   "Implement a Cost Function in C++" quiz.
+
 	float cost;
 	float distance = data["distance_to_goal"];
 	if (distance > 0) {
@@ -51,9 +50,7 @@ float inefficiency_cost(const Vehicle &vehicle,
 	map<string, float> &data) {
 	// Cost becomes higher for trajectories with intended lane and final lane 
 	//   that have traffic slower than vehicle's target speed.
-	// You can use the lane_speed function to determine the speed for a lane. 
-	// This function is very similar to what you have already implemented in 
-	//   the "Implement a Second Cost Function in C++" quiz.
+
 	float proposed_speed_intended = lane_speed(predictions, data["intended_lane"]);
 	if (proposed_speed_intended < 0) {
 		proposed_speed_intended = vehicle.target_speed;

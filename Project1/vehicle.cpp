@@ -25,9 +25,7 @@ Vehicle::Vehicle(int lane, float s, float v, float a, string state) {
 Vehicle::~Vehicle() {}
 
 vector<Vehicle> Vehicle::choose_next_state(map<int, vector<Vehicle>> &predictions) {
-	/**
-	 * Here you can implement the transition_function code from the Behavior
-	 *   Planning Pseudocode classroom concept.
+	/*
 	 *
 	 * @param A predictions map. This is a map of vehicle id keys with predicted
 	 *   vehicle trajectories as values. Trajectories are a vector of Vehicle
@@ -36,7 +34,7 @@ vector<Vehicle> Vehicle::choose_next_state(map<int, vector<Vehicle>> &prediction
 	 * @output The best (lowest cost) trajectory corresponding to the next ego
 	 *   vehicle state.
 	 *
-	 * Functions that will be useful:
+	 * 
 	 * 1. successor_states - Uses the current state to return a vector of possible
 	 *    successor states for the finite state machine.
 	 * 2. generate_trajectory - Returns a vector of Vehicle objects representing
@@ -45,7 +43,7 @@ vector<Vehicle> Vehicle::choose_next_state(map<int, vector<Vehicle>> &prediction
 	 *    for the state.
 	 * 3. calculate_cost - Included from cost.cpp, computes the cost for a trajectory.
 	 *
-	 * TODO: Your solution here.
+	 * 
 	 */
 	vector<Vehicle> best_trajectory;
 	float min_cost = FLT_MAX;
